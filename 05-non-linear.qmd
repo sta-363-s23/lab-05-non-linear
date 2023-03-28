@@ -1,0 +1,78 @@
+---
+title: "Lab 05 - Non Linear"
+author: "Lucy D'Agostino McGowan"
+format: 
+  html:
+    self-contained: true
+editor: visual
+---
+
+### Load packages
+
+```{r}
+#| label: load-packages
+#| message: false
+#| warning: false
+library(tidyverse) 
+library(tidymodels)
+library(DALEXtra)
+library(visdat)
+
+```
+
+### 
+
+## Exercise 1
+
+```{r}
+load("data/wage.rda")
+```
+
+## Exercise 2
+
+## Exercise 3
+
+## Exercise 4
+
+## Exercise 5
+
+## Exercise 6
+
+## Exercise 7
+
+```{r}
+grid <- data.frame(deg_free = 1:10)
+```
+
+
+## Exercise 8
+
+## Exercise 9
+
+```{r}
+source("ggplot_pdp.R")
+```
+
+## Exercise 10
+
+## Exercise 11
+
+```{r}
+grid <- data.frame(degree = 1:10)
+```
+
+## Exercise 12
+
+## Exercise 13
+
+## Exercise 14
+
+## Exercise 15
+
+```{r}
+grid <- expand_grid(
+  penalty = seq(0, 3, by = 0.5),
+  mixture = seq(0, 1, by = 0.1)
+)
+```
+
